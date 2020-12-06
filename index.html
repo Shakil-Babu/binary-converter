@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/fontawesome.min.css" />
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <title>Binary Converter</title>
+  </head>
+  <body>
+<section class="py-5">
+  <div class="container">
+    <div class="row py-5 my-5">
+      <div class="col-md-2"></div>
+      <div class="col-md-8" style="background-image: #fff;">
+        
+       
+        <div class="card">
+          
+          
+          <div class="card-body text-center">
+            <h5 id="showError" class="animated shake alert-danger text-danger"></h5>
+
+            <h4 class="card-title text-capitalize pt-4 pb-2">Decimal to Binary number converter</h4>
+            <hr class="mt-2" style="background-color: #f953c6; width:100px ; height: 2px;">
+
+            <input id='decimal' type="number" placeholder="Enter your decimal numbers" class="form-control"> 
+            <h4 id="showResult" class="my-2 text-left"></h4>
+          <button class="btn btn-primary btn-block mt-3" id="calculate">Calculate</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Script -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery-slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./code.js"></script>
+  </body>
+</html>

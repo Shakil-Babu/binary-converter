@@ -1,0 +1,34 @@
+* {
+  font-family: monospace;
+}
+body {
+  background-image: linear-gradient(#f953c6, #b91d73);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 33px;
+  padding-bottom: 31px;
+}
+.btn-primary {
+  background-color: #f953c6 !important;
+  border: 1px solid #f953c6 !important ;
+  font-size: 20px !important;
+}
+.btn-primary:hover {
+  background-color: #dd3bac !important;
+}
+
+.form-control {
+  border-radius: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+}
+
+#showResult {
+  font-size: 25px;
+  border-bottom: 1px solid lightgray;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  color: #dd3bac;
+  border-radius: 5px;
+}
